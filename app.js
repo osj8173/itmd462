@@ -6,7 +6,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 let Book = require('./models/book');
-mongoose.connect('mongodb://mlabmongo:dbpassword1@ds157522.mlab.com:57522/heroku_4klvh6g6');
+mongoose.connect('mongodb://mongodb:dbpassword1@ds155252.mlab.com:55252/heroku_lsvhxtws');
 
 var books = require('./routes/books');
 var app = express();
